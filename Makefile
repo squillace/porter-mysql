@@ -1,5 +1,5 @@
-MIXIN = skeletor
-PKG = get.porter.sh/mixin/$(MIXIN)
+MIXIN = mysql
+PKG = github.com/squillace/porter-mysql
 SHELL = bash
 
 GO = GO111MODULE=on go
@@ -106,4 +106,4 @@ clean: clean-packr
 	-rm -fr bin/
 
 clean-packr: packr2
-	cd pkg/skeletor && packr2 clean
+	cd pkg/mysql && packr2 clean

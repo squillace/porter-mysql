@@ -1,5 +1,5 @@
 install:
-  - skeletor:
+  - mysql:
       description: "Invalid Input Test Case"
       args:
       - yarrrr

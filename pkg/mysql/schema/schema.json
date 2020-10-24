@@ -4,40 +4,40 @@
     "installStep": {
       "type": "object",
       "properties": {
-        "skeletor": {"$ref": "#/definitions/skeletor"}
+        "mysql": {"$ref": "#/definitions/mysql"}
       },
       "required": [
-        "skeletor"
+        "mysql"
       ],
       "additionalProperties": false
     },
     "upgradeStep": {
       "type": "object",
       "properties": {
-        "skeletor": {"$ref": "#/definitions/skeletor"}
+        "mysql": {"$ref": "#/definitions/mysql"}
       },
       "required": [
-        "skeletor"
+        "mysql"
       ],
       "additionalProperties": false
     },
     "invokeStep": {
       "type": "object",
       "properties": {
-        "skeletor": {"$ref": "#/definitions/skeletor"}
+        "mysql": {"$ref": "#/definitions/mysql"}
       },
       "required": [
-        "skeletor"
+        "mysql"
       ],
       "additionalProperties": false
     },
     "uninstallStep": {
       "type": "object",
       "properties": {
-        "skeletor": {"$ref": "#/definitions/skeletor"}
+        "mysql": {"$ref": "#/definitions/mysql"}
       },
       "required": [
-        "skeletor"
+        "mysql"
       ],
       "additionalProperties": false
     },
@@ -74,7 +74,7 @@
         ]
       }
     },
-    "skeletor": {
+    "mysql": {
       "type": "object",
       "properties": {
         "description": {

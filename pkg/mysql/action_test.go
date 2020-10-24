@@ -1,4 +1,4 @@
-package skeletor
+package mysql
 
 import (
 	"io/ioutil"

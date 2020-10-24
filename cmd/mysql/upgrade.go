@@ -1,11 +1,11 @@
 package main
 
 import (
-	"get.porter.sh/mixin/skeletor/pkg/skeletor"
+	"github.com/squillace/porter-mysql/pkg/mysql"
 	"github.com/spf13/cobra"
 )
 
-func buildUpgradeCommand(m *skeletor.Mixin) *cobra.Command {
+func buildUpgradeCommand(m *mysql.Mixin) *cobra.Command {
 	cmd := &cobra.Command{
 		Use:   "upgrade",
 		Short: "Execute the invoke functionality of this mixin",
